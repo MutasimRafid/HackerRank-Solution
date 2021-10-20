@@ -1,0 +1,8 @@
+
+apghr 4 years ago
+This challenge looks difficult (medium difficulty, as many pointed out) unless you know the right way to handle it, then it becomes almost trivial.
+ I'm sharing this in hopes that you'll not waste hours of your time (like I did) on a 15-minutes problem.
+
+Instead of performing laborious operations on each input string s, you should extract from its beginning a number a of length l (1 ≤ l ≤ s.size()/2), and by concatenating (appending) its subsequent numbers you build a new string t from scratch. 
+Once it's done, compare t to s: if there's a match, print the result and move on to the next string, 
+otherwise keep comparing strings built from numbers of different l until you either find a solution or finish checking all possible cases for s.
